@@ -1,0 +1,534 @@
+/*.offer-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.offer-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.header-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.offer-title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.offer-sector {
+  margin: 0.3rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.offer-description {
+  margin: 0.5rem 0 0 0;
+  color: #444;
+  line-height: 1.4;
+}
+
+.truncated {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.see-more-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.see-more-btn {
+  background: none;
+  border: none;
+  color: #2a7fba;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+
+.see-more-btn:hover {
+  color: #1a5f8b;
+}
+
+.card-details {
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #eee;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-item {
+  background: #f8f9fa;
+  padding: 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.detail-value {
+  font-weight: 500;
+  color: #333;
+}
+
+
+
+.apply-btn:hover {
+  background-color: #1a5f8b;
+}
+
+
+.apply-btn {
+  background-color: #2a7fba;
+ 
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.apply-icon {
+  font-size: 0.9rem;
+}
+
+.details-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.details-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.see-less-btn {
+  background: none;
+  border: none;
+  color: #2a7fba;
+  cursor: pointer;
+  padding: 0.3rem 0;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.see-less-btn:hover {
+  color: #1a5f8b;
+}
+
+
+
+
+
+
+.additional-details {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.additional-details h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+.benefits-list, .skills-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #444;
+}
+
+.benefits-list li, .skills-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+.benefits-text, .skills-text {
+  margin: 0;
+  color: #444;
+  line-height: 1.4;
+}
+
+
+
+.additional-details {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.additional-details h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+.details-text {
+  margin: 0;
+  color: #444;
+  line-height: 1.4;
+  white-space: pre-line; 
+}
+
+.details-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #444;
+}
+
+.details-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+*/
+/* Style moderne pour les cartes d'offres */
+/* Design Ultra-Moderne avec Glassmorphism et Effets Néon */
+.offer-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 24px;
+  margin-bottom: 28px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(255, 255, 255, 0.3) inset;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.offer-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, 
+    rgba(49, 130, 206, 0.1) 0%, 
+    rgba(56, 161, 105, 0.05) 50%, 
+    transparent 70%);
+  z-index: -1;
+  transform: rotate(30deg);
+  transition: all 0.6s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.12),
+    0 0 0 1px rgba(255, 255, 255, 0.4) inset,
+    0 0 20px rgba(49, 130, 206, 0.15);
+}
+
+.offer-card:hover::before {
+  transform: rotate(45deg) scale(1.2);
+}
+
+.card-header {
+  display: flex;
+  gap: 1.8rem;
+  align-items: flex-start;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+.header-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.offer-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #1a202c;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  background: linear-gradient(90deg, #3182ce, #38a169);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.offer-sector {
+  margin: 0.6rem 0;
+  color: #4a5568;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+}
+
+.offer-sector::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, #3182ce, transparent);
+  border-radius: 2px;
+}
+
+.offer-description {
+  margin: 1rem 0 0 0;
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 1rem;
+  position: relative;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.detail-item {
+  background: rgba(247, 250, 252, 0.7);
+  padding: 1.2rem;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid;
+  border-image: linear-gradient(to bottom, #3182ce, #38a169) 1;
+  transition: all 0.3s ease;
+}
+
+.detail-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(49, 130, 206, 0.1);
+}
+
+.apply-btn {
+  background: linear-gradient(135deg, #3182ce, #38a169);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.4s;
+  box-shadow: 
+    0 4px 15px rgba(49, 130, 206, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.3) inset;
+  position: relative;
+  overflow: hidden;
+}
+
+.apply-btn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  transform: rotate(30deg);
+  transition: all 0.6s ease;
+}
+
+.apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 6px 20px rgba(49, 130, 206, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.4) inset;
+}
+
+.apply-btn:hover::before {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+
+.additional-details {
+  margin: 2rem 0;
+  padding: 1.8rem;
+  background: rgba(247, 250, 252, 0.7);
+  border-radius: 16px;
+  border-left: 3px solid;
+  border-image: linear-gradient(to bottom, #38a169, #3182ce) 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.additional-details::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, rgba(56, 161, 105, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.additional-details h4 {
+  margin: 0 0 1.2rem 0;
+  color: #1a202c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.additional-details h4::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #38a169, #3182ce);
+  margin-right: 0.8rem;
+  box-shadow: 0 0 8px rgba(56, 161, 105, 0.5);
+}
+
+/* Animation subtile au chargement */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.offer-card {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .offer-card {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+  
+  .card-header {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .company-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Styles pour la modal */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReactModal__Content {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow: auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
+/* Assurez-vous que la carte a un z-index inférieur */
+.offer-card {
+  z-index: 1;
+  position: relative;
+}
